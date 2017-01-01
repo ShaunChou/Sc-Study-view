@@ -39,19 +39,18 @@
   <ul>
     <li>局部更新</li>
     </br>
-    <ol>
+    <ol type="1">
       <li>第一个query是必填项，如果没有设置条件执行就会报错</li>
       <li>第二个条件update对象。如果对象key不存在，就会增加一个key。在开发的时候学会尽量避免写错key导致生成新字段的问题。<sup style="color :red">*<sup></li>
       <li>第三个参数为true，query条件找不到数据，会自动生成一条新数据。<sup style="color :red">*<sup></li>
       <li>第四个参数为true，query条件匹配多条，会批量更新多条记录，否则只更新一条</li>
     </ol>
     <li>整体更新</li>
-     <ol>
+     <ol type="1">
      <li>第一个query是必填项，如果没有设置条件执行就会报错</li>
      <li>第二个条件update对象。如果对象key不存在，就会增加一个key。在开发的时候学会尽量避免写错key导致生成新字段的问题。<sup style="color :red">*<sup></li>
      <li>第三个参数为true，query条件找不到数据，会自动生成一条新数据。<sup style="color :red">*<sup></li>
      <li>整体更新只有三个参数，只能更新一条记录，不可以批量更新。</li>
-     <li>
      </ol>
   </ul>
 <p>四：Select操作</p>
