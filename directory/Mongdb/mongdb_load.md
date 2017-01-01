@@ -13,7 +13,7 @@
               <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sudo chown -R root mongodb.config</p>
               <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sudo ./mongod -f mongodb.config</p>
               <p>&nbsp;&nbsp;③:如何把Mongodb服务设置为开机启动项</p>
-              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;创建一个mongodb.plist文件，把文件移动到~/Library/LaunchDaemons</p>
+              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;创建一个<a href="https://github.com/ShaunChou/Sc-Study-view/blob/master/directory/Mongdb/File/mongodb.plist">mongodb.plist文件</a>，把文件移动到~/Library/LaunchDaemons</p>
               <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;执行指令：sudo chown -R root  /Library/LaunchDaemons/mongod.plist </p>
               <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sudo launchctl load /Library/LaunchDaemons/mongod.plist  </p>
 
