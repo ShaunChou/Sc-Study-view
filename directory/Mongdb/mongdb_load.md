@@ -1,4 +1,4 @@
-<h2><b>MongoDB学习-增删改查</b></h2>  
+<h2><b>MongoDB学习-安装配置</b></h2>  
 <p>&nbsp;&nbsp;&nbsp;&nbsp;本人第一次接触MongoDB,他比Oracle、Mysql、Sql server更好操作。唯一缺点是原本不支持事务、多表联查</p>
 
 <p>一：下载</p>
