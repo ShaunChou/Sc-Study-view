@@ -1,6 +1,6 @@
 <h2><b>MongoDB学习-增删改查</b></h2>
 <p>MongoDB学习从现在正式开始，它虽然没有Oracle强大，但在处理某些日志和临时信息的保存下，又有很大的优势</p>
-<p>首先介绍一款可视化工具<a href="http://www.toadworld.com/products/toad-for-oracle">Toad</a>,可用于Oracle、Mysql、MongoDB。</p>
+<p>首先介绍一款可视化工具<a href="http://www.toadworld.com/products/toad-for-oracle">Toad</a>,可用于<a href="https://www.oracle.com/index.html">Oracle</a>、<a href="http://www.mysql.com/">Mysql</a>、<a href="https://www.mongodb.com/">MongoDB</a>。</p>
 <p>一：Insert操作</p>
    <p>MongoDB操作方式和其他数据库不一样，主要的数据是JSON对象，如果对JSON了解，学习是手到擒来</p>
    <p>常见的插入有两种形式：“单行插入”、“批量插入”</p>
