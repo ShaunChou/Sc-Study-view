@@ -8,7 +8,7 @@
   <p>本人系统是OSX,所以下面安装指令是OSX为主,只供参考：</p>
     <p>二：启动</p>
               <p>&nbsp;&nbsp;①：解压下载tgz文件，然后通过cp指令复制到你指令的文件夹。当然可以不使用指令copy也行</p>
-              <p>&nbsp;&nbsp;②：通过vim生成一个mongodb.config配置文件</p>
+              <p>&nbsp;&nbsp;②：通过vim生成一个<a href="https://github.com/ShaunChou/Sc-Study-view/blob/master/directory/Mongdb/File/mongodb.config">mongodb.config</a>配置文件</p>
               <img src="https://github.com/ShaunChou/Sc-Study-view/blob/master/imag/MongoDB/mongdb_img1.png"/>
               <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;然后执行下面指令：</p>
               <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sudo chown -R root mongodb.config</p>
