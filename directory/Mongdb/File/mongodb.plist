@@ -1,0 +1,32 @@
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>org.mongodb.mongod</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/usr/local/mongodb/bin/mongod</string>
+    <string>-f</string>
+    <string>/usr/local/mongodb/bin/mongod.config</string>
+  </array>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>KeepAlive</key>
+  <false/>
+  <key>WorkingDirectory</key>
+  <string>/usr/local/mongodb</string>
+  <key>StandardErrorPath</key>
+  <string>/usr/local/mongodb/log/mongodb.log</string>
+  <key>StandardOutPath</key>
+  <string>/usr/local/mongodb/log/mongodb.log</string>
+  <key>HardResourceLimits</key>
+  <dict>
+    <key>NumberOfFiles</key>
+    <integer>1024</integer>
+  </dict>
+  <key>SoftResourceLimits</key>
+  <dict>
+    <key>NumberOfFiles</key>
+    <integer>1024</integer>
+  </dict>
+</dict>
+</plist>
