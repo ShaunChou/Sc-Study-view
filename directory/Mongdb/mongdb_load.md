@@ -8,12 +8,13 @@
   <p>本人系统是OSX,所以下面安装指令是OSX为主,只供参考：</p>
     <p>二：启动</p>
               <p>&nbsp;&nbsp;①：解压下载tgz文件，然后通过cp指令复制到你指令的文件夹。当然可以不使用指令copy也行</p>
-              <p>&nbsp;&nbsp;②：通过vim生成一个配置文件</p>
+              <p>&nbsp;&nbsp;②：通过vim生成一个mongodb.config配置文件</p>
+              <img src="https://github.com/ShaunChou/Sc-Study-view/blob/master/imag/MongoDB/mongdb_img1.png"/>
               <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;然后执行下面指令：</p>
               <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sudo chown -R root mongodb.config</p>
               <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sudo ./mongod -f mongodb.config</p>
               <p>&nbsp;&nbsp;③:如何把Mongodb服务设置为开机启动项</p>
-              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;创建一个<a href="https://github.com/ShaunChou/Sc-Study-view/blob/master/directory/Mongdb/File/mongodb.plist">mongodb.plist文件</a>，把文件移动到~/Library/LaunchDaemons</p>
+              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;创建一个<a href="https://github.com/ShaunChou/Sc-Study-view/blob/master/directory/Mongdb/File/mongodb.plist">mongodb.plist</a>文件，把文件移动到~/Library/LaunchDaemons</p>
               <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;执行指令：sudo chown -R root  /Library/LaunchDaemons/mongod.plist </p>
               <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sudo launchctl load /Library/LaunchDaemons/mongod.plist  </p>
 
