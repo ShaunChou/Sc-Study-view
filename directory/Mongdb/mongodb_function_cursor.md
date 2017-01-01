@@ -36,4 +36,4 @@
 
 <p>二：游标</p>
 <p>Oracle的存储过程中，游标往往用于遍历数据集，进行相关操作。mongodb的原理也一样，根据find()获取一个JSON对象数组，遍历数组里面的JSON对象进行相关操作。稍微灵活点就是取出对象进行链式操作，和jq一样</p>
-<img src ="https://github.com/ShaunChou/Sc-Study-view/blob/master/imag/MongoDB/mongodb_cursor_1.png"/>
+<img src ="https://github.com/ShaunChou/Sc-Study-view/blob/master/imag/MongoDB/mongdb_cursor_1.png"/>
