@@ -1,3 +1,3 @@
-<h3>MongoDB学习-增删改查<h3>
+<h3>MongoDB学习-增删改查</h3>
 <p>MongoDB学习从现在正式开始，它虽然没有Oracle强大,但对于学过js的人来说，学起来会简单易懂。</p>
 <p>首先介绍一款可视化工具<a href="http://www.toadworld.com/products/toad-for-oracle">Toad</a>,可用于Oracle、Mysql、MongoDB</p>
