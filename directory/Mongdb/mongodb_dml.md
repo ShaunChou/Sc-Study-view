@@ -1,4 +1,4 @@
-<h2><b>MongoDB学习-增删改查</b></h3>
+<h2><b>MongoDB学习-增删改查</b></h2>
 <p>MongoDB学习从现在正式开始，它虽然没有Oracle强大，但在处理某些日志和临时信息的保存下，又有很大的优势</p>
 <p>首先介绍一款可视化工具<a href="http://www.toadworld.com/products/toad-for-oracle">Toad</a>,可用于Oracle、Mysql、MongoDB。</p>
 <p>一：Insert操作</p>
@@ -38,21 +38,20 @@
   <img src="https://github.com/ShaunChou/Sc-Study-view/blob/master/imag/MongoDB/mongodb_update_3.png"/>
   <ul>
     <li>局部更新</li>
-    </br>
     <ol type="1">
       <li>第一个query是必填项，如果没有设置条件执行就会报错</li>
-      <li>第二个条件update对象。如果对象key不存在，就会增加一个key。在开发的时候学会尽量避免写错key导致生成新字段的问题。<sup style="color :red">*<sup></li>
-      <li>第三个参数为true，query条件找不到数据，会自动生成一条新数据。<sup style="color :red">*<sup></li>
+      <li>第二个条件update对象。如果对象key不存在，就会增加一个key。在开发的时候学会尽量避免写错key导致生成新字段的问题。<sup style="color :red">*</sup></li>
+      <li>第三个参数为true，query条件找不到数据，会自动生成一条新数据。<sup style="color :red">*</sup></li>
       <li>第四个参数为true，query条件匹配多条，会批量更新多条记录，否则只更新一条</li>
     </ol>
     <li>整体更新</li>
      <ol type="1">
      <li>第一个query是必填项，如果没有设置条件执行就会报错</li>
-     <li>第二个条件update对象。如果对象key不存在，就会增加一个key。在开发的时候学会尽量避免写错key导致生成新字段的问题。<sup style="color :red">*<sup></li>
-     <li>第三个参数为true，query条件找不到数据，会自动生成一条新数据。<sup style="color :red">*<sup></li>
+     <li>第二个条件update对象。如果对象key不存在，就会增加一个key。在开发的时候学会尽量避免写错key导致生成新字段的问题。<sup style="color :red">*</sup></li>
+     <li>第三个参数为true，query条件找不到数据，会自动生成一条新数据。<sup style="color :red">*</sup></li>
      <li>整体更新只有三个参数，只能更新一条记录，不可以批量更新。</li>
      </ol>
   </ul>
 <p>四：Select操作</p>
-    <p>Select相对来说很简单，和Delete操作一样。但玩法很多，对于喜欢js的我，非常棒</p>
+   <p>Select相对来说很简单，和Delete操作一样。但玩法很多，对于喜欢js的我，非常棒</p>
     <img src="https://github.com/ShaunChou/Sc-Study-view/blob/master/imag/MongoDB/mongodb.select_1.png"/>
