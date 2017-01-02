@@ -1,5 +1,5 @@
 <h2><b>MongoDB学习-函数和游标</b></h2>
-<p>在<a href="https://www.oracle.com/index.html">Oracle</a>、<a href="http://www.mysql.com/">Mysql</a>、<a href="https://www.mongodb.com/">MongoDB</a>中，只要接触过procedure,就应该知道游标和聚合函数，接下来讲解一些简单常用的聚合函数</p>
+<p>在<a href="https://www.oracle.com/index.html">Oracle</a>、<a href="http://www.mysql.com/">Mysql</a>、<a href="http://www.microsoft.com/zh-cn/server-cloud/products/sql-server/overview.aspx?wt.mc_id=AID529507_SEM_EMT-MSFT_ZH_CEServer_China_Search-Baidu0164">Sql Server</a>中，只要接触过procedure,就应该知道游标和聚合函数，接下来讲解一些简单常用的聚合函数</p>
 <p>一：聚合函数</p>
 <p>① count</p>
 <p>用来计数，可以传入JSON对象作为条件。</p>
