@@ -3,7 +3,7 @@
 <p>首先可能想到的就是索引，下面主要介绍索引的简单操作。version：3.4.1</p>
 <p>一：性能分析函数（explain）</p>
 <p>用于获取查询请求返回的统计数据，同时可以针对性的优化索引</p>
-<img src="https://github.com/ShaunChou/Sc-Study-view/blob/master/imag/MongoDB/mongodb_index_1.png" alt="explain">
+<img src="https://github.com/ShaunChou/Sc-Study-view/blob/master/imag/MongoDB/mongodb_index_1.jpg" alt="explain">
 <p>nReturned:返回的条数</p>
 <p>executionTimeMillis:执行需要的时间(毫秒)</p>
 <p>totalDocsExamined:总的条数</p>
